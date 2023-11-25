@@ -1,7 +1,3 @@
-provider "aws" {
-  region = "us-east-1"  # Substitua pela sua região desejada
-}
-
 resource "aws_ecs_cluster" "my_cluster" {
   name = "my-ecs-cluster"
 }
